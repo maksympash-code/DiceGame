@@ -13,8 +13,11 @@
         android:layout_height="wrap_content"
         android:text="@string/roll_the_dice"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="127dp"
-        tools:layout_editor_absoluteY="44dp"
+        app:layout_constraintBottom_toTopOf="@+id/die2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
     <ImageView
@@ -89,11 +92,12 @@
         android:layout_height="50dp"
         android:text="@string/roll"
         android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnStop"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="530dp" />
+        app:layout_constraintTop_toBottomOf="@+id/die4"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/btnStop"
@@ -101,10 +105,11 @@
         android:layout_height="50dp"
         android:text="@string/stop"
         android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/btnRoll"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="530dp" />
+        app:layout_constraintTop_toBottomOf="@+id/die6"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
