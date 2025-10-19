@@ -58,14 +58,14 @@
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toStartOf="@+id/die6"
+        app:layout_constraintEnd_toStartOf="@+id/die5"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/die1"
         app:srcCompat="@drawable/die6" />
 
     <ImageView
-        android:id="@+id/die6"
+        android:id="@+id/die5"
         android:layout_width="80dp"
         android:layout_height="80dp"
         app:layout_constraintEnd_toEndOf="parent"
